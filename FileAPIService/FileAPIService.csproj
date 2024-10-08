@@ -103,12 +103,16 @@
     <Compile Include="FileAPIService.Designer.cs">
       <DependentUpon>FileAPIService.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\FileApiQuest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Service\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
