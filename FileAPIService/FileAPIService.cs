@@ -50,7 +50,7 @@ namespace FileAPIService
                     {
                         FileName = nomeArquivo,
                         Content = conteudoArquivo,
-                        DirectoryPath = @""
+                        DirectoryPath = @"\\\\BRMANM0PRS02\\maquinas\\SPI"
                     };
 
                     var json = JsonConvert.SerializeObject(fileRequest);
